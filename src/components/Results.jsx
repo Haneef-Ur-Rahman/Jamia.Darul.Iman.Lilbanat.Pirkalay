@@ -3,9 +3,9 @@ import { useState } from 'react'
 // 🔴 APNI SHEET IDs YAHAN BHARO
 const SHEET_DATABASE = {
     '2025': {
-        'A': 'YOUR_SHEET_ID_FOR_2025_اعدادیہ',
-        'B': 'YOUR_SHEET_ID_FOR_2025_متوسطہ',
-        'C': 'YOUR_SHEET_ID_FOR_2025_اولٰی',
+          'A': '19QA_Yars6Dzttqe8ip0HkcTA5W8-IiKA0fxzdSgxDkU',
+        'B': '1EBDdmgL9v-63oRj8gjg5mEq6jOEG_pu7RPwU4c69-aM',
+        'C': '1dvUYZGq5c7RiTbd4u6-Ma1-gIGh9CWOaFOUpc3l7OPA',
         '1': '1TXAINbgYCsIGwdYUFgBIgm0Fiw9MddhGRuux6FiOiz8', // خاصہ سال اول
         '2': '10lM9ylgEiaZsBRejlkM7nAKzGTMuESoZsdolO1Ix8b0', // خاصہ سال دوم
         '3': '122kK9yPCn2vYOd7I9VHPlWfyZpb2YMP0N2N8B4NnAuA', // عالیہ سال اول
@@ -13,17 +13,17 @@ const SHEET_DATABASE = {
         '5': '13z-Ba4gLLGxngayH_AQ-GMdflwfdgZI7lBdSelqzROk', // عالمیہ سال اول
         '6': '1IpgtRGl6r4WWsAr9ZCCAdcQU-bjmQlz9M0Sz-rZz3CA', // عالمیہ سال دوم
     },
-    '2026': {
-        'A': 'YOUR_SHEET_ID_FOR_2026_اعدادیہ',
-        'B': 'YOUR_SHEET_ID_FOR_2026_متوسطہ',
-        'C': 'YOUR_SHEET_ID_FOR_2026_اولٰی',
-        '1': 'YOUR_SHEET_ID_FOR_2026_خاصہ_سال_اول',
-        '2': '1JZaSUERPkIqdRlp5qXgJhn6Pn7sTF_aekPFImr3RJ4s', // ✅ خاصہ سال دوم
-        '3': 'YOUR_SHEET_ID_FOR_2026_عالیہ_سال_اول',
-        '4': 'YOUR_SHEET_ID_FOR_2026_عالیہ_سال_دوم',
-        '5': 'YOUR_SHEET_ID_FOR_2026_عالمیہ_سال_اول',
-        '6': 'YOUR_SHEET_ID_FOR_2026_عالمیہ_سال_دوم',
-    },
+   '2026': {
+    'A': '1eT3x3qapirZiAGU0TEbPigvFLphf8BrVipHR9pQQArY', // اعدادیہ
+    'B': '1pGhLmMP8JrC493f3ppq7A98Q1wCjrKEU-8gf2N_Ewto', // متوسطہ
+    'C': '14SoSD3TtRc0FljXoXpUEZPWIvbG-hIl-YIsHFqBIfOE', // اولٰی
+    '1': '1OdP203CcPrReWdqW6QRRJqXdSSQoXTHraXst-2Q2ZTo', // خاصہ سال اول
+    '2': '1JZaSUERPkIqdRlp5qXgJhn6Pn7sTF_aekPFImr3RJ4s', // ✅ خاصہ سال دوم
+    '3': '1g3jTIR2CNOOalv-hZFXHNo3eiH0QaAHUatBvEMtEQvI', // عالیہ سال اول
+    '4': '18b52rdRJa1vAo-PBHVoBoAev0RBqtl1mKW3jVoKlH0E', // عالیہ سال دوم
+    '5': '1-Mu9sHHr1qis5lPXqyTWDRCflDoBmce7s3npxhEalcQ', // عالمیہ سال اول
+    '6': '1CBEG4_eNPIaPjYQKugvrUunuO8gq39f1YvaqCxdK-jM', // عالمیہ سال دوم
+},
 }
 
 const gradeNames = {
