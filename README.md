@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🕌 Jamia Darul Iman Lilbanaat, Pirkalay, Peshawar - Website
 
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://react.dev/)
