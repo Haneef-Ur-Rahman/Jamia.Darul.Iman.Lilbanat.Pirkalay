@@ -9,6 +9,7 @@
 // import Footer from './components/Footer'
 
 
+
 // function App() {
 //   return (
 //     <>
@@ -41,12 +42,14 @@ import Gallery from './components/Gallery'
 import Footer from './components/Footer'
 import Modal from './components/Modal'         // 👈 ADD
 import Results from './components/Results'     // 👈 ADD
+import NotificationModal from './components/NotificationModal'
 
 function App() {
   const [isResultsOpen, setIsResultsOpen] = useState(false)  // 👈 ADD
 
   return (
     <>
+       <NotificationModal />
       <Ticker />
       <Header onOpenResults={() => setIsResultsOpen(true)} />   {/* 👈 MODIFY */}
       <main>
