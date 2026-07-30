@@ -1,4 +1,4 @@
-# 🕌 Jamia Darul Iman Lilbanaat, Pirkalay, Peshawar - Website
+# 🕌 Jamia Darul Iman Lilbanaat, Pirkalay, Peshawar - Website 
 
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
@@ -8,7 +8,7 @@
 > Official website of **Jamia Darul Iman Lilbanaat, Pirkalay, Peshawar**  
 > A complete portal for student results, announcements, and madrasa information
 
----
+----
 
 ## ✨ Features
 
