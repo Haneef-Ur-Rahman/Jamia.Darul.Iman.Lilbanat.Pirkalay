@@ -113,7 +113,9 @@ export default function NotificationModal() {
                         <span className="material-symbols-outlined text-brand-gold text-2xl">campaign</span>
                         <div>
                             <h3 className="urdu-text font-bold text-base sm:text-lg">اعلان نامہ</h3>
-                            <p className="text-white/60 text-[10px] tracking-wider">جامعہ دارالایمان للبنات</p>
+                           <p className="text-white/60 text-[10px] tracking-wider">
+                                جامعہ دارالایمان للبنات پیرکلے پشاور
+                            </p>
                         </div>
                     </div>
                     <button
