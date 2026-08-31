@@ -66,8 +66,8 @@ function Hero() {
                 {/* Pulsing Ring */}
                 <div className="absolute -inset-1 rounded-full border-2 border-brand-maroon/30 opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
                 
-                {/* Image */}
-                <div className="w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-full overflow-hidden border-2 border-brand-maroon/50 shadow-md group-hover:border-brand-maroon/80 group-hover:shadow-lg group-hover:shadow-brand-maroon/30 transition-all duration-400">
+                {/* Image - Aur Bara */}
+                <div className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-brand-maroon/50 shadow-md group-hover:border-brand-maroon/80 group-hover:shadow-lg group-hover:shadow-brand-maroon/30 transition-all duration-400">
                   <img
                     src={nigarImage}
                     alt="مہتمم مولانا سیّد نگار بادشاہ پیرکلے"
@@ -75,9 +75,9 @@ function Hero() {
                   />
                 </div>
                 
-                {/* Verification Badge */}
-                <div className="absolute -bottom-0.5 -right-0.5 w-5 h-5 md:w-6 md:h-6 bg-brand-maroon rounded-full flex items-center justify-center border-2 border-white shadow-sm">
-                  <span className="material-symbols-outlined text-white text-[10px] md:text-xs" style={{ fontVariationSettings: "'FILL' 1" }}>
+                {/* Verification Badge - Bara */}
+                <div className="absolute -bottom-0.5 -right-0.5 w-6 h-6 md:w-7 md:h-7 bg-brand-maroon rounded-full flex items-center justify-center border-2 border-white shadow-sm">
+                  <span className="material-symbols-outlined text-white text-xs md:text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>
                     verified
                   </span>
                 </div>
