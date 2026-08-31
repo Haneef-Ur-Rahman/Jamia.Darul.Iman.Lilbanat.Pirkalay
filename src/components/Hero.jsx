@@ -6,7 +6,7 @@ function Hero() {
     <section id="home" className="relative min-h-[310px] lg:min-h-[440px] flex items-center overflow-hidden bg-gradient-to-b from-white to-surface-container-low pt-3 md:pt-4 pb-6 md:pb-8">
       <div className="w-full px-4 md:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-7 lg:gap-10 items-center relative z-10">
 
-        {/* Campus Photo Card - Bara */}
+        {/* Campus Photo Card */}
         <div className="order-2 lg:order-1 relative flex justify-center lg:justify-start">
           <div className="relative w-full max-w-[440px] lg:max-w-[520px]">
             <div className="absolute -inset-2.5 bg-brand-maroon/10 rounded-[1.4rem] lg:rounded-[1.9rem] blur-2xl -z-10" />
@@ -50,8 +50,8 @@ function Hero() {
             </p>
           </div>
 
-          {/* Muhtamim Info Card - Premium Brand-Maroons Theme */}
-          <div className="group relative max-w-md mx-auto lg:mx-0">
+          {/* Muhtamim Info Card - Center Mein (Thora Oper) */}
+          <div className="group relative max-w-md mx-auto -mt-1 md:-mt-2">
             {/* Background Glow */}
             <div className="absolute -inset-1.5 bg-gradient-to-r from-brand-maroon/20 via-brand-maroon/10 to-brand-maroon/20 rounded-3xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity duration-500"></div>
             
@@ -61,12 +61,12 @@ function Hero() {
               {/* Top Shimmer Line */}
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-gradient-to-r from-transparent via-brand-maroon/60 to-transparent group-hover:w-3/4 transition-all duration-700 rounded-full"></div>
 
-              {/* Muhtamim Image Container - Bara */}
+              {/* Muhtamim Image Container */}
               <div className="relative shrink-0">
                 {/* Pulsing Ring */}
                 <div className="absolute -inset-1 rounded-full border-2 border-brand-maroon/30 opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"></div>
                 
-                {/* Image - Bara */}
+                {/* Image */}
                 <div className="w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-full overflow-hidden border-2 border-brand-maroon/50 shadow-md group-hover:border-brand-maroon/80 group-hover:shadow-lg group-hover:shadow-brand-maroon/30 transition-all duration-400">
                   <img
                     src={nigarImage}
@@ -75,7 +75,7 @@ function Hero() {
                   />
                 </div>
                 
-                {/* Verification Badge - Bara */}
+                {/* Verification Badge */}
                 <div className="absolute -bottom-0.5 -right-0.5 w-5 h-5 md:w-6 md:h-6 bg-brand-maroon rounded-full flex items-center justify-center border-2 border-white shadow-sm">
                   <span className="material-symbols-outlined text-white text-[10px] md:text-xs" style={{ fontVariationSettings: "'FILL' 1" }}>
                     verified
@@ -94,7 +94,7 @@ function Hero() {
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-maroon/50"></span>
                 </div>
 
-                {/* Name - Thora Bara */}
+                {/* Name */}
                 <p className="urdu-text text-gray-800 font-semibold text-sm md:text-base lg:text-lg leading-snug group-hover:text-brand-maroon transition-colors duration-300">
                   مولانا سیّد نگار بادشاہ پیرکلے
                 </p>
