@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jamia-darul-iman-lilbanat-pirkalay.vercel.app/sitemap.xml
