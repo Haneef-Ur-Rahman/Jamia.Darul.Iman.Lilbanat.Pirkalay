@@ -361,9 +361,9 @@ const navLinks = [
   { label: 'ہوم',             to: '/' },
   { label: 'ہمارے بارے میں',   to: '/about' },
   { label: 'تعلیمی نظام',      to: '/courses' },
-  { label: 'سہولیات',          to: '/facilities' },
+  { label: 'سہولیات',          to: '/pillars' },
   { label: 'گیلری',            to: '/gallery' },
-  { label: 'رابطہ',            to: '/contact' },
+  { label: 'رابطہ',            to: '/footer' },
   {
     label: 'داخلہ فارم',
     href: 'https://drive.google.com/uc?export=download&id=1_aNpVpWs6mWdUtZb18yZdmZ6ma2vgtFe'
