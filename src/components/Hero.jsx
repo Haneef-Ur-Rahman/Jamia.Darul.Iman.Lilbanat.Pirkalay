@@ -106,7 +106,7 @@ function Hero() {
                       call
                     </span>
                     <span className="text-gray-700 text-xs md:text-sm font-mono tracking-wide font-medium">
-                      +92 313 9812656
+                      +92 3194556456
                     </span>
                   </div>
                 </div>
