@@ -11,16 +11,16 @@ import img8 from '../assets/images/eight.png';
 import img9 from '../assets/images/nine.png';
 
 const images = [
-  { src: img0 },
-  { src: img1 },
-  { src: img2 },
-  { src: img3 },
-  { src: img4 },
-  { src: img5 },
-  { src: img6 },
-  { src: img7 },
-  { src: img8 },
-  { src: img9 },
+  { src: img0, alt: 'جامعہ کی عمارت' },
+  { src: img1, alt: 'طالبات کا درس' },
+  { src: img2, alt: 'لائبریری' },
+  { src: img3, alt: 'کلاس روم' },
+  { src: img4, alt: 'تلاوت کا session' },
+  { src: img5, alt: 'سالیں تقریب' },
+  { src: img6, alt: 'کمپاؤنڈ' },
+  { src: img7, alt: 'طالبات کی کارکردگی' },
+  { src: img8, alt: 'تقریب کے لمحات' },
+  { src: img9, alt: 'مہمانوں کی آمد' },
 ];
 
 function Gallery() {
