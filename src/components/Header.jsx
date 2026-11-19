@@ -363,7 +363,7 @@ const navLinks = [
   { label: 'تعلیمی نظام',      to: '/courses' },
   { label: 'سہولیات',          to: '/pillars' },
   { label: 'گیلری',            to: '/gallery' },
-  { label: 'رابطہ',            to: '/footer' },
+  { label: 'رابطہ',            to: '/#contact' },
   {
     label: 'داخلہ فارم',
     href: 'https://drive.google.com/uc?export=download&id=1_aNpVpWs6mWdUtZb18yZdmZ6ma2vgtFe'
