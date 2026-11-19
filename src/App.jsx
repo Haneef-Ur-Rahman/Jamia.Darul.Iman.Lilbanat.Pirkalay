@@ -42,7 +42,7 @@
 
 //--------------------------------------------------------------------------------------------------
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Ticker from './components/Ticker'
 import Header from './components/Header'
