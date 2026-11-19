@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import videoSrc from '../assets/images/video.mp4'
 
 function About() {
