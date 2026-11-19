@@ -353,7 +353,7 @@
 //------------------------------------------------------------------------------------------------
 
 import { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import logo from '../assets/images/logo.png'
 
 // 🔁 Changed: hash anchors (#home) → real routes (/)
@@ -375,6 +375,15 @@ function Header({ onOpenResults }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isDonateModalOpen, setIsDonateModalOpen] = useState(false)
   const [toast, setToast] = useState('')
+
+  const location = useLocation()
+
+useEffect(() => {
+  if (location.hash) {
+    const el = document.querySelector(location.hash)
+    if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth' }), 100)
+  }
+}, [location])
 
   const handleCopy = () => {
     navigator.clipboard.writeText('03139812656').then(() => {
