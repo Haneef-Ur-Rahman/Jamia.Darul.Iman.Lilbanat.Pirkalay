@@ -34,12 +34,12 @@
 //   }, [])
 
 //   const handleCopy = () => {
-//     navigator.clipboard.writeText('03194556456').then(() => {
+//     navigator.clipboard.writeText('0 3139812656').then(() => {
 //       setToast('نمبر کاپی ہوگیا!')
 //       setTimeout(() => setToast(''), 2500)
 //     }).catch(() => {
 //       const textArea = document.createElement('textarea')
-//       textArea.value = '03194556456'
+//       textArea.value = '0 3139812656'
 //       document.body.appendChild(textArea)
 //       textArea.select()
 //       document.execCommand('copy')
@@ -278,7 +278,7 @@
 //                 </span>
 //                 <div className="flex items-center gap-2 flex-1">
 //                   <p className="text-base md:text-lg font-bold text-white tracking-wider font-mono" dir="ltr">
-//                     +92 3194556456
+//                     +92  3139812656
 //                   </p>
 //                   <button
 //                     onClick={handleCopy}
@@ -386,12 +386,12 @@ useEffect(() => {
 }, [location])
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('03194556456').then(() => {
+    navigator.clipboard.writeText('0 3139812656').then(() => {
       setToast('نمبر کاپی ہوگیا!')
       setTimeout(() => setToast(''), 2500)
     }).catch(() => {
       const textArea = document.createElement('textarea')
-      textArea.value = '03194556456'
+      textArea.value = '0 3139812656'
       document.body.appendChild(textArea)
       textArea.select()
       document.execCommand('copy')
@@ -638,7 +638,7 @@ useEffect(() => {
                 </span>
                 <div className="flex items-center gap-2 flex-1">
                   <p className="text-base md:text-lg font-bold text-white tracking-wider font-mono" dir="ltr">
-                    +92 3194556456
+                    +92  3139812656
                   </p>
                   <button
                     onClick={handleCopy}
