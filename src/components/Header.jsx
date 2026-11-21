@@ -391,7 +391,7 @@ useEffect(() => {
       setTimeout(() => setToast(''), 2500)
     }).catch(() => {
       const textArea = document.createElement('textarea')
-      textArea.value = '0 3139812656'
+      textArea.value = '03139812656'
       document.body.appendChild(textArea)
       textArea.select()
       document.execCommand('copy')
