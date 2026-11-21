@@ -638,7 +638,7 @@ useEffect(() => {
                 </span>
                 <div className="flex items-center gap-2 flex-1">
                   <p className="text-base md:text-lg font-bold text-white tracking-wider font-mono" dir="ltr">
-                    +92  3139812656
+                    +92-3139812656
                   </p>
                   <button
                     onClick={handleCopy}
