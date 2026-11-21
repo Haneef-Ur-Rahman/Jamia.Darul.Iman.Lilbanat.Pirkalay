@@ -441,19 +441,20 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
-      <div className="bg-black/30 py-2 md:py-3 lg:py-3 border-t border-white/5 text-center">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-1.5 text-white/30 text-[8px] md:text-[9px] font-medium">
-        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-2 px-4 md:px-8 text-white/50 text-[10px] md:text-xs">
-  <p className="urdu-text">
-    جامعہ دارالایمان للبنات پیرکلے پشاور۔ تمام حقوق محفوظ ہیں۔
-  </p>
-  <p className="font-mono tracking-wider" dir="ltr">
-    © {new Date().getFullYear()}
-  </p>
+    {/* Bottom bar */}
+<div className="bg-black/30 py-3 border-t border-white/5">
+  <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-2 text-white/50 text-[10px] md:text-xs">
+    
+    <p className="urdu-text text-center md:text-right">
+      جامعہ دارالایمان للبنات پیرکلے پشاور۔ تمام حقوق محفوظ ہیں۔
+    </p>
+    
+    <p className="font-mono tracking-wider" dir="ltr">
+      © {new Date().getFullYear()}
+    </p>
+
+  </div>
 </div>
-        </div>
-      </div>
 
       {/* Toast animation */}
       <style jsx>{`
