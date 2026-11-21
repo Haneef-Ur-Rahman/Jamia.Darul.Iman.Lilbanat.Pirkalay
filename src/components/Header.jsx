@@ -386,7 +386,7 @@ useEffect(() => {
 }, [location])
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('0 3139812656').then(() => {
+    navigator.clipboard.writeText('03139812656').then(() => {
       setToast('نمبر کاپی ہوگیا!')
       setTimeout(() => setToast(''), 2500)
     }).catch(() => {
