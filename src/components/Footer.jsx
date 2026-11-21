@@ -405,7 +405,7 @@ function Footer() {
                   dir="ltr"
                   className="text-white/60 font-mono tracking-wider group-hover:text-white hover:text-brand-gold transition-colors text-[10px] md:text-[11px]"
                 >
-                  +92- 3139812656
+                  +92-3139812656
                 </a>
                 <span className="material-symbols-outlined text-brand-gold text-lg lg:text-xl opacity-80 shrink-0 leading-none">
                   call
@@ -454,7 +454,7 @@ function Footer() {
     </p>
     
     <p className="font-mono tracking-wider" dir="ltr">
-      © {new Date().getFullYear()}
+      {new Date().getFullYear()} ©
     </p>
 
   </div>
