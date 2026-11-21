@@ -445,7 +445,7 @@ function Footer() {
 {/* Bottom bar */}
 <div className="bg-black/30 py-2 md:py-3 lg:py-3 border-t border-white/5">
   <div 
-    className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 flex flex-col md:flex-row justify-center md:justify-start items-center gap-1.5 md:gap-2 text-white/50 text-[10px] md:text-xs font-medium" 
+    className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 flex flex-col md:flex-row justify-center items-center gap-1.5 md:gap-2 text-white/50 text-[10px] md:text-xs font-medium" 
     dir="rtl"
   >
     
