@@ -238,7 +238,7 @@ function Footer() {
       setTimeout(() => setToast(''), 2500);
     }).catch(() => {
       const textArea = document.createElement('textarea');
-      textArea.value = '0 3139812656';
+      textArea.value = '03139812656';
       document.body.appendChild(textArea);
       textArea.select();
       document.execCommand('copy');
@@ -282,7 +282,7 @@ function Footer() {
                 </span>
                 <div className="flex items-center gap-1.5 flex-1">
                   <p className="text-xs md:text-sm lg:text-base font-bold text-white tracking-wider font-mono" dir="ltr">
-                    +92  3139812656
+                    +923139812656
                   </p>
                   <button
                     onClick={handleCopy}
@@ -401,7 +401,7 @@ function Footer() {
               </li>
               <li className="flex items-center gap-2 md:gap-2.5 justify-center md:justify-end group">
                 <a
-                  href="tel:+92 3139812656"
+                  href="tel:+923139812656"
                   dir="ltr"
                   className="text-white/60 font-mono tracking-wider group-hover:text-white hover:text-brand-gold transition-colors text-[10px] md:text-[11px]"
                 >
@@ -413,7 +413,7 @@ function Footer() {
               </li>
               <li className="flex items-center gap-2 md:gap-2.5 justify-center md:justify-end group">
                 <a
-                  href="https://wa.me/92 3139812656"
+                  href="https://wa.me/923139812656"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/60 urdu-text group-hover:text-white hover:text-brand-gold transition-colors text-[10px] md:text-[11px]"
