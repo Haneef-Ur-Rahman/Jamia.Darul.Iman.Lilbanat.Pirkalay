@@ -445,7 +445,9 @@ function Footer() {
       <div className="bg-black/30 py-2 md:py-3 lg:py-3 border-t border-white/5 text-center">
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-1.5 text-white/30 text-[8px] md:text-[9px] font-medium">
           <p className="urdu-text text-center md:text-right">
-            © {new Date().getFullYear()} جامعہ دارالإیمان للبنات پیرکلے پشاور۔ تمام حقوق محفوظ ہیں۔
+            © {new Date().getFullYear()} جامعہ دارالایمان للبنات پیرکلے پشاور۔ تمام حقوق محفوظ ہیں۔
+
+
           </p>
         </div>
       </div>
